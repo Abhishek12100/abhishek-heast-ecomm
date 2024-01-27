@@ -43,6 +43,17 @@ const HomePage = () => {
                     <div>
                         <AboutUs />
                     </div>
+                    <div>
+                        <HeeadingComponent>
+                            <h1 className='text-[2rem] lg:text-[4rem] font-extrabold uppercase'>Contact Us</h1>
+                            <div className=''>
+                                <p className='lg:text-[16px] text-[14px] font-serif uppercase font-[500] tracking-widest'>Email : <a href="emailto:abhisheksharma12100@gmail.com">abhisheksharma12100@gmail.com</a> </p>
+                                <div className='w-full flex justify-center mt-4'>
+                                    <a href="https://wa.me/+918468805511"><button className='px-10 py-3 rounded-md font-[600] bg-green-500 text-white flex items-center gap-2 hover:animate-bounce transition-all hover:scale-110 duration-500 delay-200 '><span>+91 8468805511</span></button></a>
+                                </div>
+                            </div>
+                        </HeeadingComponent>
+                    </div>
                 </div>
             </div>
         </section>
