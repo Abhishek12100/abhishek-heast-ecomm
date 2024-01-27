@@ -96,5 +96,4 @@ export const productJson = [
         product_link_whatsp : "https://wa.me/+918468805511",
         productReview : 4,
     },
-   
 ]

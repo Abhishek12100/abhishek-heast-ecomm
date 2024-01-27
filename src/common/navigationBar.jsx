@@ -20,7 +20,7 @@ export function NavigationBar() {
         </Navbar.Link></NavLink>
         <NavLink to={"/about"}><Navbar.Link>About</Navbar.Link></NavLink>
         <Navbar.Link href="#productlist">product list</Navbar.Link>
-        <Navbar.Link href="#contact">Contact</Navbar.Link>
+        <Navbar.Link href="#contact">Contact Us</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   );

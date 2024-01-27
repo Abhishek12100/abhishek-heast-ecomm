@@ -9,7 +9,7 @@ const AboutUs = () => {
             <div className='inner-container w-11/12 mx-auto '>
                 <div className='content-container w-full h-fit '>
                     <div className='heading-container text-center w-full'>
-                        <h1 className='text-[3.5rem] font-extrabold uppercase  tracking-tighter'>why Chooseing us</h1>
+                        <h1 className='text-[3.5rem] font-extrabold uppercase  tracking-tighter'>why CHOOSEING  us</h1>
                         <div>
                             <p className='uppercase tracking-widest font-[600] '>Reason for chooseing us</p>
                         </div>
@@ -56,7 +56,7 @@ const AboutUs = () => {
                                 <h1 className='text-[3rem] uppercase text-center font-extrabold'>About Us</h1>
                             </div>
                             <div className='text-[1rem] space-y-[2rem] text-center w-10/12 mx-auto '>
-                                <p>Founded in 2019, Heast has been committed to delivering style and quality to our customers. We have affordable price , and our mission is to make high-quality clothing accessible to all.</p>
+                                <p>We were founded in 2019, Heast has been committed to delivering style and quality to our customers. We have affordable price , and our mission is to make high-quality clothing accessible to all.</p>
                                 <p>Out Collection is carefully curated to include a wide range of style, ensuring that there's something for everyone. From everyday essentials to statement pieces, Heast is your one-stop for all your clothing needs</p>
                                 <p>At Heast, we're more than just a clothing brand - we're a community. We value our customers and strive to create an inclusive, welcoming space where everyone can express their personal style.</p>
                                 <p>Thank you for choosing Heast. We can't wait to see your order!.</p>

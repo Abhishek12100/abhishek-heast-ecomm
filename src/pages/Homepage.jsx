@@ -20,7 +20,7 @@ const HomePage = () => {
                             <div className=''>
                                 <p className='lg:text-[16px] text-[14px] font-serif uppercase font-[500] tracking-widest'>Get Extra Discount Order from What'sapp</p>
                                 <div className='w-full flex justify-center mt-4'>
-                                    <a href="https://wa.me/+918468805511"><button className='px-10 py-3 rounded-md font-[600] bg-green-500 text-white flex items-center gap-2 hover:animate-bounce transition-all hover:scale-110 duration-500 delay-200 '><span><FaWhatsapp className='text-xl font-[600]'/></span> <span>What'sApp</span></button></a>
+                                    <a href="https://wa.me/+918468805511"><button className='px-10 py-3 rounded-md font-[600] bg-green-500 text-white flex items-center gap-2 hover:animate-bounce transition-all hover:scale-110 duration-500 delay-200 '><span><FaWhatsapp className='text-xl font-[600]'/></span> <span>WhatsApp</span></button></a>
                                 </div>
                             </div>
                         </HeeadingComponent>
