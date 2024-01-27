@@ -9,9 +9,9 @@ const AboutUs = () => {
             <div className='inner-container w-11/12 mx-auto '>
                 <div className='content-container w-full h-fit '>
                     <div className='heading-container text-center w-full'>
-                        <h1 className='text-[3.5rem] font-extrabold uppercase  tracking-tighter'>why CHOOSEING  us</h1>
+                        <h1 className='text-[3.5rem] font-extrabold uppercase  tracking-tighter'>why CHOOSING  us</h1>
                         <div>
-                            <p className='uppercase tracking-widest font-[600] '>Reason for chooseing us</p>
+                            <p className='uppercase tracking-widest font-[600] '>Reason for choosing us</p>
                         </div>
                     </div>
                     <div className='my-[2rem] w-full relative '>
