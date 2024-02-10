@@ -9,6 +9,8 @@ import HomePage from './pages/Homepage';
 import AboutUs from './pages/about';
 import GoogleMaps from './components/googleMaps';
 import SmallDescription from './common/smallDescription';
+import Blogs from './pages/blogs';
+
 
 function App() {
   return <>
@@ -18,7 +20,14 @@ function App() {
           <Suspense fallback={<SpinnerComp/>}>
               <Routes>
                 <Route path="/" element={<HomePage />}/>
-                <Route path="/about" element={<AboutUs />}/>
+                <Route path="/about" element={
+                  <Suspense fallback={<SpinnerComp/>}>
+                    <AboutUs />
+                  </Suspense>
+                }/>
+                <Route path='/blogs' element={<Suspense fallback={<SpinnerComp />}> 
+                  <Blogs/>
+                </Suspense>}/>
               </Routes>
           </Suspense>
           <GoogleMaps />

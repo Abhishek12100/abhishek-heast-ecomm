@@ -11,11 +11,11 @@ export function CrouselComponent() {
   return (
     <div className="h-56 lg:h-fit rounded-none ">
       <Carousel className='w-full crousel-inner-container lg:h-[40rem] rounded-none ' pauseOnHover>
-        <img src={crousel1} className='object-fill' alt="..." />
-        <img src={crousel2} className='object-fill' alt="..." />
-        <img src={crousel3} className='object-fill' alt="..." />
-        <img src={crousel4} className='object-fill' alt="..." />
-        <img src={crousel5} className='object-fill' alt="..." />
+        <img loading='lazy' src={crousel1} className='object-fill' alt="..." />
+        <img loading='lazy' src={crousel2} className='object-fill' alt="..." />
+        <img loading='lazy' src={crousel3} className='object-fill' alt="..." />
+        <img loading='lazy' src={crousel4} className='object-fill' alt="..." />
+        <img loading='lazy' src={crousel5} className='object-fill' alt="..." />
       </Carousel>
     </div>
   );
